@@ -5,14 +5,16 @@
 import numpy as np
 import pandas as pd
 
-#!curl -O LOCATION/NAME.csv
-#ls -l
+!curl -O Nicolass-MacBook-Pro/Mac/Users/Nicolas 1/Desktop/shared/Test.csv
+ls -l
 
-df = pd.read_csv('NAME.csv',
+df = pd.read_csv('Test.csv',
                  header=None,
                  encoding='iso-8859-15',
                  names=['temp', 'hummidity', 'co2', 'phase', 'time'])
-   
+
+df.loc
+
 from farmware_tools import get_config_value, device
 
 
