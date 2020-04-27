@@ -8,11 +8,6 @@ import numpy as np
 #!curl -O Nicolass-MacBook-Pro/Mac/Users/Nicolas 1/Desktop/shared/Test.csv
 #ls -l
 
-#df = pd.read_csv('Test.csv',
-                 header=None,
-                 encoding='iso-8859-15',
-                 names=['temp', 'hummidity', 'co2', 'phase', 'time'])
-
 from farmware_tools import get_config_value, device
 
 INPUT_VALUE = get_config_value(farmware_name='Hello Farmware Input', config_name='input', value_type=str)
