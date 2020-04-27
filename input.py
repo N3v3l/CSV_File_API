@@ -5,8 +5,8 @@
 import numpy as np
 import pandas as pd
 
-!curl -O https://raw.githubusercontent.com/DJCordhose/ml-examples/master/datasets/Iris/iris_dirty.csv
-ls -l
+#!curl -O https://raw.githubusercontent.com/DJCordhose/ml-examples/master/datasets/Iris/iris_dirty.csv
+#ls -l
 
 #df = pd.read_csv('iris_dirty.csv',
                  header=None,
