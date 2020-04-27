@@ -3,12 +3,12 @@
 # Ressources: 
 
 import numpy as np
-import pandas as pd
+#import pandas as pd
 
-!curl -O Nicolass-MacBook-Pro/Mac/Users/Nicolas 1/Desktop/shared/Test.csv
-ls -l
+#!curl -O Nicolass-MacBook-Pro/Mac/Users/Nicolas 1/Desktop/shared/Test.csv
+#ls -l
 
-df = pd.read_csv('Test.csv',
+#df = pd.read_csv('Test.csv',
                  header=None,
                  encoding='iso-8859-15',
                  names=['temp', 'hummidity', 'co2', 'phase', 'time'])
