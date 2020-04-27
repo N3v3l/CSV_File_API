@@ -3,7 +3,7 @@
  "language": "python",
  "author": " N3v3l ",
  "description": " This Farmware can read out parameter data from third party system and post logs ",
- "farmware_manifest_version": "2.0.0",
+ "farmware_manifest_version": "2.0.1",
  "package_version": "1.0.0",
  "farmbot_os_version_requirement": ">= 8.0.0",
  "url": "https://raw.githubusercontent.com/N3v3l/CSV_File_API//master/manifest.json", 
