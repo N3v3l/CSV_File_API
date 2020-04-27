@@ -8,10 +8,7 @@ import pandas as pd
 #!curl -O https://raw.githubusercontent.com/DJCordhose/ml-examples/master/datasets/Iris/iris_dirty.csv
 #ls -l
 
-#df = pd.read_csv('iris_dirty.csv',
-                 header=None,
-                 encoding='iso-8859-15',
-                 names=['sepal length', 'sepal width', 'petal length', 'petal width', 'class'])
+#df = pd.read_csv('iris_dirty.csv',header=None ,encoding='iso-8859-15',names=['sepal length', 'sepal width', 'petal length', 'petal width',]) 'class'])
 
 
 from farmware_tools import get_config_value, device
