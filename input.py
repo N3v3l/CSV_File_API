@@ -3,7 +3,7 @@
 # Ressources: 
 
 import numpy as np
-#import pandas as pd
+import pandas as pd
 
 #!curl -O https://raw.githubusercontent.com/DJCordhose/ml-examples/master/datasets/Iris/iris_dirty.csv
 #ls -l
