@@ -4,7 +4,7 @@
  "author": " N3v3l ",
  "description": " This Farmware can read out parameter data from third party system and post logs ",
  "farmware_manifest_version": "2.0.0",
- "package_version": "1.0.8",
+ "package_version": "1.0.9",
  "farmbot_os_version_requirement": ">= 8.0.0",
  "url": "https://raw.githubusercontent.com/N3v3l/CSV_File_API//master/manifest.json", 
  "zip": "https://github.com/N3v3l/CSV_File_API/archive/master.zip",
