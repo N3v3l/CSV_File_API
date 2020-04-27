@@ -3,7 +3,7 @@
 # Ressources: 
 
 import numpy as np
-import pandas as pd
+#import pandas as pd
 
 #!curl -O https://raw.githubusercontent.com/DJCordhose/ml-examples/master/datasets/Iris/iris_dirty.csv
 #ls -l
@@ -15,5 +15,5 @@ from farmware_tools import get_config_value, device
 
 #df.loc[82,'sepal width'] = value
 
-INPUT_VALUE = get_config_value(farmware_name='CSV_File_API', config_name='input', value_type=str)
+INPUT_VALUE = get_config_value(farmware_name='CSV File API', config_name='input', value_type=str)
 device.log(message='Hello Farmware! Input was: {}'.format(INPUT_VALUE), message_type='success')
